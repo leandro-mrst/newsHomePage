@@ -111,8 +111,13 @@ body {
   cursor: pointer;
   transition: color 0.2s;
 }
-.sidebar h3:hover { color: hsl(35, 77%, 62%); }
-.sidebar p { color: hsl(233, 8%, 79%); font-size: 0.9rem; }
+.sidebar h3:hover {
+    color: hsl(35, 77%, 62%);
+}
+.sidebar p { 
+    color: hsl(233, 8%, 79%);
+    font-size: 0.9rem;
+}
 
 .secondary {
   display: grid;
@@ -123,7 +128,12 @@ body {
   display: flex;
   gap: 1rem;
 }
-.card-img img { width: 100px; height: auto; display: block; border-radius: 0.25rem; }
+.card-img img {
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 0.25rem;
+}
 .card-text .number {
   font-size: 2rem;
   font-weight: 800;
@@ -140,7 +150,16 @@ body {
     color: hsl(35, 77%, 62%);
 }
 
-.card-text p { color: hsl(236, 13%, 42%); font-size: 0.9rem; }
+.card-text p {
+    color: hsl(236, 13%, 42%);
+    font-size: 0.9rem;
+}
 
-.attribution { text-align: center; font-size: 0.75rem; margin-top: 2rem; }
-.attribution a { color: hsl(236, 13%, 42%); }
+.attribution {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 2rem;
+}
+.attribution a {
+    color: hsl(236, 13%, 42%);
+}
